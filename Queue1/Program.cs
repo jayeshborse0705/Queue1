@@ -14,6 +14,7 @@ namespace Queue1
             qt.Enqueue(56);
             qt.Enqueue(30);
             qt.Enqueue(70);
+            qt.Dequeue();
 
 
             foreach (Object obj in qt)
